@@ -10,7 +10,7 @@
 # site domain, full URL to the production location of your collection
 url: https://info663-sp24.github.io
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /team4-soul-of-reason
+baseurl: /team4
 # location of code, the full url to your github repository
 source-code: https://github.com/CollectionBuilder/collectionbuilder-csv
 
