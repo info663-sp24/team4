@@ -10,7 +10,7 @@ InstantiationIdentifier,digi_ID,TRUE,FALSE,DCTERMS.identifier,identifier
 InstantiationDigital,Format,FALSE,FALSE,DCTERMS.type,
 object_transcript,Transcript,FALSE,TRUE,DCTERMS.hasFormat,accessibilityFeature
 InstantiationDuration,Duration,FALSE,FALSE,DCTERMS.rights,duration
-language,language,TRUE,FALSE,DCTERMS.language,inLanguage
-display_template,Media Type,FALSE,FALSE,DCTERMS.format,encodingFormat
-object_location,Media Source,FALSE,TRUE,DCTERMS.source,itemLocation
+language,Language,TRUE,FALSE,DCTERMS.language,inLanguage
+display_template,Media Type,FALSE,FALSE,DCTERMS.format,
+object_location,Media Source,FALSE,TRUE,DCTERMS.isRequiredBy,url
 objectid,Object ID,FALSE,FALSE,DCTERMS.type,Episode
