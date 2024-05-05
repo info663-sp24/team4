@@ -1,14 +1,15 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
-title,Title,,,DCTERMS.title,headline
-creator,Creator,,,DCTERMS.creator,creator
-date,Date Created,,,DCTERMS.date,dateCreated
-description,Description,,,DCTERMS.description,description
-subject,Subjects,true,,DCTERMS.subject,keywords
-location,Location,,,,contentLocation
-latitude,Latitude,,,,
-longitude,Longitude,,,,
-source,Source,,,,
-identifier,Source Identifier,,,,
-type,Type,,,DCTERMS.type,
-format,Format,,,,encodingFormat
-rightsstatement,,,,DCTERMS.rights,license
+title,Title,TRUE,FALSE,DCTERMS.title,name
+creator,Host,TRUE,FALSE,DCTERMS.creator,creator
+date,Date Created,FALSE,FALSE,DCTERMS.date,dateCreated
+description,Description,TRUE,FALSE,DCTERMS.description,description
+subject,Subjects,TRUE,FALSE,DCTERMS.subject,about
+pbcoreContributor,Guest,TRUE,FALSE,DCTERMS.contributor,contributor
+pbcorePublisher,Broadcaster,FALSE,FALSE,DCTERMS.publisher,publisher
+InstantiationIdentifier,digi_ID,TRUE,FALSE,DCTERMS.identifier,identifier
+InstantiationDigital,Format,FALSE,FALSE,DCTERMS.type,
+object_transcript,Transcript,FALSE,TRUE,DCTERMS.hasFormat,accessibilityFeature
+InstantiationDuration,Duration,FALSE,FALSE,DCTERMS.rights,duration
+Language,language,TRUE,FALSE,DCTERMS.language,inLanguage
+display_template,Media Type,FALSE,FALSE,DCTERMS.format,encodingFormat
+object_location,Media Source,FALSE,TRUE,DCTERMS.source,itemLocation

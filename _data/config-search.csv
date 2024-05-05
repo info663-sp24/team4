@@ -1,7 +1,8 @@
 field,index,display
-title,true,true
-date,true,true
-creator,true,false
-description,true,true
-subject,true,true
-location,true,false
+Title,TRUE,TRUE
+pbcoreContributor,TRUE,TRUE
+creator,TRUE,TRUE
+Description,TRUE,TRUE
+subject,TRUE,TRUE
+InstantiationIdentifier,TRUE,TRUE
+object_transcript,TRUE,TRUE
